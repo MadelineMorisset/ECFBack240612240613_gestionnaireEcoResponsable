@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/resetCss.css">
     <link rel="stylesheet" href="./assets/css/variable.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/23c1a897ea.js" crossorigin="anonymous"></script>
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +23,7 @@
 </head>
 
 <body>
-    <?php include("./view/header.php") ?>
+    <?php include("./header.php") ?>
 
 </body>
 

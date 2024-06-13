@@ -9,6 +9,11 @@
   font-size: var(--titleSize);
   font-weight: var(--titleWeight);
 }
+.textForm {
+  font-family: var(--text);
+  font-size: var(--textForm);
+  font-weight: var(--textWeight);
+}
 
 /* ---------------- HEADER ---------------- */
 .headerBody {
@@ -20,7 +25,19 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+}
+.returnHomePage {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.returnHomePage-link {
+  color: var(--white);
+}
+.fa-house{
+  width: 30px;
+  height: 30px;
 }
 .navBody-list {
   display: flex;
@@ -39,4 +56,42 @@
 }
 .navBody-listElement--link:hover{
   text-decoration: underline;
+}
+
+/* ----------------- MAIN ----------------- */
+.mainBody {
+  padding: 20px 25px;
+  height: 100%;
+}
+
+/* ----------- MAIN - LOGIN PAGE ---------- */
+.container {
+  margin-top: 20px;
+  padding: 0 15px 20px 15px;
+}
+.form {
+  margin-top: 20px;
+  padding: 0 15px 20px 15px;
+}
+.loginForm {
+  border-bottom: 1px solid var(--black);
+}
+.formSection {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.label {
+  color: var(--second);
+}
+.inputLogin {
+  width: 200px;
+  height: 18px;
+  padding: 5px 10px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
 }
