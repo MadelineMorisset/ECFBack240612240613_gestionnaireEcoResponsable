@@ -1,0 +1,19 @@
+:root {
+    /* Colors */
+    --first: #0f4f7a;
+    --second: #3586bb;
+    --black: #111;
+    --white: #fff;
+
+    /* Fonts */
+    --title: "Lora";
+    --text: "Josefin Sans";
+
+    /* Font weight */
+    --titleWeight: 600;
+    --textWeight: 400;
+
+    /* Font size */
+    --titleSize: 50px;
+    --textSize: 14px;
+}
